@@ -1,4 +1,4 @@
-[] Add custom CSS and Reset CSS
+[x] Add custom CSS and Reset CSS
 [] Create container structure
 [] Design System Color Variables
 [] Header
