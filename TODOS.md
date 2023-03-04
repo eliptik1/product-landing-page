@@ -1,6 +1,6 @@
 [x] Add custom CSS and Reset CSS
-[] Create container structure
-[] Design System Color Variables
+[x] Create container structure
+[x] Design System Color Variables
 [] Header
 [] Hero
 [] Companies

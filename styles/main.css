@@ -1,3 +1,27 @@
+:root {
+    /* colors */
+    --primary: #4A72FF;
+    --primary-light: rgba(74, 114, 255, .05);
+    --dark: #0C1B4D;
+    --dark-light: rgba(12, 27, 77, 0.6);
+    --dark-extra-light: rgba(12, 27, 77, 0.1);
+    --spacing: #ffd39d;
+
+    /* shadow */
+    --primary-shadow: 0 30px 30px 30px rgba(74, 114, 255, 0.25);
+
+    /* Font Sizes */
+    --font-size-xs: 14px;
+    --font-size-s: 16px;
+    --font-size-m: 18px;
+    --font-size-xxl: 28px;
+}
+
+body {
+    font-family: 'Dm Sans', sans-serif;
+    font-size: var(--font-size-s);
+}
+
 .container {
     background-color: var(--primary);
     max-width: 1024px;
