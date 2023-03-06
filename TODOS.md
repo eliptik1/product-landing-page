@@ -2,7 +2,7 @@
 [x] Create container structure
 [x] Design System Color Variables
 [x] Header
-[] Hero
+[x] Hero
 [] Companies
 [] 3 Horizontal Features
 [] 3 Vertical Features

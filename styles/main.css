@@ -12,10 +12,13 @@
     --primary-shadow: 0 5px 15px 15px rgba(74, 114, 255, 0.1);
 
     /* Font Sizes */
+    --font-size-xxs: 12px;
     --font-size-xs: 14px;
     --font-size-s: 16px;
     --font-size-m: 18px;
+    --font-size-xl: 24px;
     --font-size-xxl: 28px;
+    --font-size-xxxl: 34px;
 }
 
 body {
@@ -24,7 +27,7 @@ body {
     font-family: 'Dm Sans', sans-serif;
     font-size: var(--font-size-s);
     color: var(--dark-light);
-    
+    line-height: 1.5;
 }
 
 .container {
@@ -76,4 +79,59 @@ font-weight: 500;
 
 header .primary-button {
     padding: 12px 24px;
+}
+
+/* Hero */
+
+#hero {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 96px 0;
+}
+
+#hero > * {
+    flex: 1; /* Spread evenly */
+}
+
+.hero-sub-title {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: var(--font-size-xs);
+    color: var(--primary);
+    margin-bottom: 16px;
+}
+
+.hero-title {
+    font-size: var(--font-size-xxxl);
+    color: var(--dark);
+    margin-bottom: 16px;
+}
+
+.hero-actions {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.hero-analytics {
+    margin-top: 48px;
+    display: flex;
+    gap: 48px;
+}
+
+.hero-analytic-item {
+    display: flex;
+    gap: 16px;
+}
+
+.hero-analytic-item h5 {
+    font-size: var(--font-size-xxs);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.hero-analytic-item h3 {
+    font-size: var(--font-size-xl);
+    color: var(--dark);
 }
