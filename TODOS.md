@@ -3,7 +3,7 @@
 [x] Design System Color Variables
 [x] Header
 [x] Hero
-[] Companies
+[x] Companies
 [] 3 Horizontal Features
 [] 3 Vertical Features
 [] Store links
