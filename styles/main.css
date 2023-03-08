@@ -81,13 +81,38 @@ header .primary-button {
     padding: 12px 24px;
 }
 
+section {
+    margin: 72px 0;
+}
+
+section .section-introduction {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50ch;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+section .section-sub-title {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: var(--font-size-xs);
+    color: var(--dark);
+}
+
+section .section-title {
+    font-size: var(--font-size-xxl);
+    color: var(--dark);
+}
+
 /* Hero */
 
 #hero {
     display: flex;
     align-items: center;
     gap: 24px;
-    margin: 96px 0;
 }
 
 #hero > * {
@@ -158,3 +183,34 @@ header .primary-button {
     filter: grayscale(0);
     opacity: 1;
 }
+
+/* Features horizontal */
+
+#features-horizontal .section-body {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    text-align: center;
+    margin-top: 36px;
+}
+
+#features-horizontal .section-body .feature-item-title {
+    font-size: var(--font-size-m);
+    color: var(--dark);
+    margin-bottom: 8px;
+}
+
+#features-horizontal .feature-item {
+    flex: 1;
+}
+
+#features-horizontal .section-body .feature-item-image {
+    max-height: 180px;
+    margin-bottom: 16px;
+}
+
+#features-horizontal .section-body img {
+    margin-left: auto;
+    margin-right: auto;
+}
+

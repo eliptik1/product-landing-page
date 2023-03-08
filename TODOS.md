@@ -4,7 +4,7 @@
 [x] Header
 [x] Hero
 [x] Companies
-[] 3 Horizontal Features
+[x] 3 Horizontal Features
 [] 3 Vertical Features
 [] Store links
 [] FAQ
