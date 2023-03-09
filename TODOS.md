@@ -5,7 +5,7 @@
 [x] Hero
 [x] Companies
 [x] 3 Horizontal Features
-[] 3 Vertical Features
+[x] 3 Vertical Features
 [] Store links
 [] FAQ
 [] Footer

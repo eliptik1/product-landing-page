@@ -214,3 +214,40 @@ section .section-title {
     margin-right: auto;
 }
 
+/* Features vertical */
+
+#features-vertical {
+    display: flex;
+    align-items: center;
+} 
+
+#features-vertical > * {
+    flex: 1;
+}
+
+#features-vertical .section-introduction {
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+#features-vertical .section-body {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#features-vertical .feature-item {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+#features-vertical .feature-item-image {
+    padding: 16px;
+    background-color: var(--dark-extra-light);
+    border-radius: 8px;
+}
+
+#features-vertical .feature-item-body h3{
+    color: var(--dark);
+}
