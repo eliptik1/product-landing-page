@@ -6,7 +6,7 @@
 [x] Companies
 [x] 3 Horizontal Features
 [x] 3 Vertical Features
-[] Store links
+[x] Store links
 [] FAQ
 [] Footer
 [] Responsive

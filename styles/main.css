@@ -251,3 +251,44 @@ section .section-title {
 #features-vertical .feature-item-body h3{
     color: var(--dark);
 }
+
+/* Stores */
+
+#stores {
+    background-color: var(--primary);
+    padding: 100px 80px;
+    border-radius: 16px;
+    box-shadow: var(--primary-shadow);
+    position: relative;
+}
+
+#stores .section-introduction {
+    margin: unset;
+    color: var(--white);
+    text-align: left;
+}
+
+#stores .section-introduction ul {
+    list-style: disc;
+    margin-left: 16px;
+    opacity: 0.7;
+}
+
+#stores .section-introduction h3,
+#stores .section-introduction h2 {
+    color: var(--white);
+}
+
+#stores .section-body {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+#stores .store-image {
+    position: absolute;
+    right: 80px;
+    top: 0;
+    bottom: 0;
+    max-height: 100%;
+}
