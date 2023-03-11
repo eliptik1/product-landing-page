@@ -7,7 +7,7 @@
 [x] 3 Horizontal Features
 [x] 3 Vertical Features
 [x] Store links
-[] FAQ
+[x] FAQ
 [] Footer
 [] Responsive
 [] Javascript
