@@ -8,7 +8,7 @@
 [x] 3 Vertical Features
 [x] Store links
 [x] FAQ
-[] Footer
+[x] Footer
 [] Responsive
 [] Javascript
 [] Final touches
