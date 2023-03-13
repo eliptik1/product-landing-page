@@ -9,6 +9,6 @@
 [x] Store links
 [x] FAQ
 [x] Footer
-[] Responsive
+[x] Responsive
 [] Javascript
 [] Final touches

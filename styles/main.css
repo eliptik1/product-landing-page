@@ -390,3 +390,39 @@ footer .social-media li {
     padding: 8px;
     border-radius: 4px;
 }
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    #hero {
+        flex-direction: column-reverse;
+    }
+    .hero-body {
+        text-align: center;
+    }
+
+    .hero-actions, .hero-analytics {
+        justify-content: center;
+    }
+
+    #features-horizontal .section-body {
+        flex-direction: column;
+    }
+
+    #features-vertical {
+        flex-direction: column;
+    }
+
+    .store-image {
+        display: none;
+    }
+
+    #faw .section-introduction,
+    #faw .section-body {
+        max-width: 100%;
+    }
+
+    footer .container {
+        flex-direction: column;
+    }
+}
