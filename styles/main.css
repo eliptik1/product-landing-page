@@ -306,6 +306,7 @@ section .section-title {
 
 #faq .faq-item {
     border-radius: 8px;
+    cursor: pointer;
 }
 
 #faq .faq-item .faq-header {
@@ -318,8 +319,10 @@ section .section-title {
 }
 
 #faq .faq-item .faq-body {
-    padding: 24px;
-    display: none;
+    font-size: 0;
+    padding: 0;
+    opacity: 0;
+    transition: opacity 250ms, font-size 500ms 250ms, padding 500ms 250ms;
 }
 
 #faq .faq-item.active {
@@ -328,13 +331,25 @@ section .section-title {
     box-shadow: var(--primary-shadow);
 }
 
+#faq .faq-item.active svg path {
+    stroke: var(--white);
+}
+
+#faq .faq-item.active svg {
+    transform: rotate(180deg);
+    transition: all 300ms;
+}
+
 #faq .faq-item.active .faq-header {
     border-color: rgba(255, 255, 255, 0.2);
     color: var(--white);
 }
 
 #faq .faq-item.active .faq-body {
-    display: block;
+    font-size: inherit;
+    padding: 24px;
+    opacity: 1;
+    transition: opacity 500ms 250ms, font-size 250ms, padding 250ms;
 }
 
 /* Footer */

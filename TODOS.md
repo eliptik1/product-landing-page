@@ -10,5 +10,5 @@
 [x] FAQ
 [x] Footer
 [x] Responsive
-[] Javascript
-[] Final touches
+[x] Javascript
+[x] Final touches
